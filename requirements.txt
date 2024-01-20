@@ -1,0 +1,22 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+transformers              # Hugging Face Transformers: State-of-the-art Natural Language Processing models
+transformers[sentencepiece] # Optional support for SentencePiece tokenizer with Transformers
+datasets                  # Hugging Face Datasets: Repository of datasets for NLP tasks
+sacrebleu                 # BLEU score computation for machine translation evaluation
+rouge_score               # Rouge score computation for summarization evaluation
+py7zr                     # Python bindings for 7-Zip with support for various compression formats
+pandas                    # Data manipulation and analysis library
+nltk                      # Natural Language Toolkit for NLP tasks
+tqdm                      # Progress bar library for command-line interfaces
+PyYAML                    # YAML parser and emitter for Python
+matplotlib                # Plotting library for creating visualizations
+torch        # PyTorch: Deep learning library with CUDA for GPU Utilization
+notebook                  # Jupyter notebook for interactive computing
+boto3                     # Amazon Web Services (AWS) SDK for Python
+mypy-boto3-s3             # Type hints for Boto3, the AWS SDK for Python (S3 module)
+python-box==6.0.2          # Python Box: Dict-like dot notation access with attribute-style assignments
+ensure==1.0.2              # Library for ensuring that specified conditions are met
+fastapi==0.78.0            # FastAPI: Fast (high-performance), web framework for building APIs
+uvicorn==0.18.3            # ASGI server implementation, serving FastAPI applications
+Jinja2==3.1.2               # Templating engine for Python
+-e .                       # Editable installation of the current directory (the project itself)
