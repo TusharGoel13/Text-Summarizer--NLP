@@ -1,4 +1,4 @@
---extra-index-url https://download.pytorch.org/whl/cu121
+#For installing PyTorch wih cuda  :  --extra-index-url https://download.pytorch.org/whl/cu121
 transformers              # Hugging Face Transformers: State-of-the-art Natural Language Processing models
 transformers[sentencepiece] # Optional support for SentencePiece tokenizer with Transformers
 datasets                  # Hugging Face Datasets: Repository of datasets for NLP tasks
@@ -10,7 +10,7 @@ nltk                      # Natural Language Toolkit for NLP tasks
 tqdm                      # Progress bar library for command-line interfaces
 PyYAML                    # YAML parser and emitter for Python
 matplotlib                # Plotting library for creating visualizations
-torch        # PyTorch: Deep learning library with CUDA for GPU Utilization
+torch                     # PyTorch: Deep learning library with CUDA for GPU Utilization
 notebook                  # Jupyter notebook for interactive computing
 boto3                     # Amazon Web Services (AWS) SDK for Python
 mypy-boto3-s3             # Type hints for Boto3, the AWS SDK for Python (S3 module)
